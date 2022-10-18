@@ -1,0 +1,819 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=EUC-JP">   
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 9.0.2.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>MH食事効果一覧</TITLE>
+<style type="text/css">
+<!--
+.tb1{
+	background-color: #FFFFFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell0 {
+	background-color: #FFFFFF;
+	font-size: 80%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+	text-align: center;
+}
+.tb-cell0x {
+	background-color: #FFE0E0;
+	font-size: 80%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+	text-align: center;
+}
+.tb-cell1 {
+	background-color: #333333;
+	font-size: 80%;
+	color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell2 {
+	background-color: #FF8040;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell2a {
+	background-color: #FF8040;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell3 {
+	background-color: #40FF40;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell3a {
+	background-color: #40FF40;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell4 {
+	background-color: #80C0FF;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell4a {
+	background-color: #80C0FF;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell5 {
+	background-color: #FFFF40;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell5a {
+	background-color: #FFFF40;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell6 {
+	background-color: #C0E0C0;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell6a {
+	background-color: #C0E0C0;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell7 {
+	background-color: #FFFFC0;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell7a {
+	background-color: #FFFFC0;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell8 {
+	background-color: #FF40FF;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cell8a {
+	background-color: #FF40FF;
+	font-size: 75%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+.tb-cellx {
+	background-color: #FFFFFF;
+	font-size: 80%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.tb-celly {
+	background-color: #FFFFFF;
+	font-size: 80%;
+	color: #333333;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #333333;
+	border-left-color: #333333;
+}
+-->
+</style>
+</HEAD>
+<BODY>
+
+<H3 align="left"><a href="index.html"               >MH</a>食事効果一覧</H3>
+食材の組合せで変化するステータスの一覧です。<BR>
+<BR>
+<FONT SIZE="-1">
+ステータスの変化は、個々の食材ではなく、食材の種類（肉類、野菜類、魚類、穀物類、油類、乳製品類、酒類）の組合せで<BR>
+決まります。例えば、ポーンなら肉類と肉類の組合せで「体力＋10」、肉類と野菜類で「耐力＋25」ということです。<BR>
+<BR>
+* 攻撃力の変化量は、武器倍率における変化量です。従って、ステータス上では、<BR>
+　大剣は4.8倍、片手剣は1.4倍、ハンマーは5.2倍、ランスは2.3倍、ボウガンは1.2倍されて表示されます。<BR>
+</FONT>
+<BR>
+<BR>
+●歩卒　　【資格：HR1〜　料金：0ｚ】
+<TABLE border="1" cellspacing="0" cellpadding="2" id="_HPB_TABLE_1_A_050315092952" class="tb1">
+  <TBODY>
+    <TR>
+      <TD class="tb-cell1" width="90" height="50">食　材</TD>
+      <TD class="tb-cell2a" width="90">雜碎肉<BR>波波肉</TD>
+      <TD class="tb-celly" width="90">　</TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell2" height="50">雜碎肉<BR>波波肉</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell3a">河堤南瓜<BR>餡玉米<BR>双生磨菰</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell3" height="50">河堤南瓜<BR>餡玉米<BR>双生磨菰</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell4a">扇貝片<BR>九曲魚腸<BR>音符魚</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell4" height="50">扇貝片<BR>九曲魚腸<BR>音符魚</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0x">体力−10</TD>
+      <TD class="tb-cell5a">頑固面包<BR>混雜豆<BR>絲豆腐</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell5" height="50">頑固面包<BR>混雜豆<BR>絲豆腐</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell6a">油葡萄干</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell6" height="50">油葡萄干</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">体力＋20</TD>
+      <TD class="tb-cell0x">体力−10</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell7a">干麦淇淋<BR>粉吹乳酪</TD>
+      <TD class="tb-celly">　</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell7" height="50">干麦淇淋<BR>粉吹乳酪</TD>
+      <TD class="tb-cell0x">体力−10</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell8a">霍皮酒</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell8" height="50">霍皮酒</TD>
+      <TD class="tb-cell0">攻撃力＋3</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">防御力＋5</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+●戰車　　【資格：HR5〜　料金：200ｚ】
+<TABLE border="1" cellspacing="0" cellpadding="2" id="_HPB_TABLE_1_A_050315092952" class="tb1">
+  <TBODY>
+    <TR>
+      <TD class="tb-cell1" width="90" height="50">食　材</TD>
+      <TD class="tb-cell2a" width="90">骰子肉<BR>七味臘腸</TD>
+      <TD class="tb-celly" width="90">　</TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell2" height="50">骰子肉<BR>七味臘腸</TD>
+      <TD class="tb-cell0">体力＋20</TD>
+      <TD class="tb-cell3a">斑点葱<BR>餡玉米<BR>嫩馬鈴薯<BR>温和香草</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell3" height="50">斑点葱<BR>餡玉米<BR>嫩馬鈴薯<BR>温和香草</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell4a">蛇形鮭魚<BR>鰤魚頭</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell4" height="50">蛇形鮭魚<BR>鰤魚頭</TD>
+      <TD class="tb-cell0">攻撃力＋3</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell5a">頑固面包<BR>甜米虫</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell5" height="50">頑固面包<BR>甜米虫</TD>
+      <TD class="tb-cell0">体力＋20</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell6a">果醤<BR>橄欖膏</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell6" height="50">果醤<BR>橄欖膏</TD>
+      <TD class="tb-cell0x">体力−10</TD>
+      <TD class="tb-cell0">防御力＋5</TD>
+      <TD class="tb-cell0x">体力−10</TD>
+      <TD class="tb-cell0">防御力＋10</TD>
+      <TD class="tb-cell0x">体力−10</TD>
+      <TD class="tb-cell7a">干麦淇淋<BR>成熟乳酪</TD>
+      <TD class="tb-celly">　</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell7" height="50">干麦淇淋<BR>成熟乳酪</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">体力＋10<BR>
+      耐力＋25</TD>
+      <TD class="tb-cell0x">体力−10</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell8a">發泡牛乳</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell8" height="50">發泡牛乳</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+●主教　　【資格：HR9〜　料金：500ｚ】
+<TABLE border="1" cellspacing="0" cellpadding="2" id="_HPB_TABLE_1_A_050315092952" class="tb1">
+  <TBODY>
+    <TR>
+      <TD class="tb-cell1" width="90" height="50">食　材</TD>
+      <TD class="tb-cell2a" width="90">叢林肋骨<BR>肉車<BR>野葷飩</TD>
+      <TD class="tb-celly" width="90">　</TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell2" height="50">叢林肋骨<BR>肉車<BR>野葷飩</TD>
+      <TD class="tb-cell0">体力＋20</TD>
+      <TD class="tb-cell3a">根棒葱<BR>西国芹<BR>甜馬爾凱</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell3" height="50">根棒葱<BR>西国芹<BR>甜馬爾凱</TD>
+      <TD class="tb-cell0">攻撃力＋3</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell4a">蛇形鮭魚<BR>兜蟹<BR>章魚宴</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell4" height="50">蛇形鮭魚<BR>兜蟹<BR>章魚宴</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell5a">甜米虫<BR>沃米爾麦</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell5" height="50">甜米虫<BR>沃米爾麦</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell6a">果醤</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell6" height="50">果醤</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell0x">体力−20</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell0">防御力＋10</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell7a">猛牛黄油<BR>辣椒乳酪</TD>
+      <TD class="tb-celly">　</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell7" height="50">猛牛黄油<BR>辣椒乳酪</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">防御力＋5</TD>
+      <TD class="tb-cell0">体力＋30</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell8a">調香發泡酒</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell8" height="50">調香發泡酒</TD>
+      <TD class="tb-cell0">攻撃力＋5</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">体力＋10<BR>
+      攻撃力＋3</TD>
+      <TD class="tb-cell0x">体力−20</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">耐力＋25<BR>
+      防御力＋5</TD>
+      <TD class="tb-cell0">　</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+●王后　　【資格：HR13〜　料金：1000ｚ】
+<TABLE border="1" cellspacing="0" cellpadding="2" id="_HPB_TABLE_1_A_050315092952" class="tb1">
+  <TBODY>
+    <TR>
+      <TD class="tb-cell1" width="90" height="50">食　材</TD>
+      <TD class="tb-cell2a" width="90">白色肝臟<BR>羊肉Ｇ<BR>龍足<BR>野葷飩</TD>
+      <TD class="tb-celly" width="90">　</TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell2" height="50">白色肝臟<BR>羊肉Ｇ<BR>龍足<BR>野葷飩</TD>
+      <TD class="tb-cell0">体力＋30</TD>
+      <TD class="tb-cell3a">万能菠蘿<BR>炮彈生菜<BR>稀有洋葱</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell3" height="50">万能菠蘿<BR>炮彈生菜<BR>稀有洋葱</TD>
+      <TD class="tb-cell0">攻撃力＋3</TD>
+      <TD class="tb-cell0">体力＋10<BR>
+      耐力＋25</TD>
+      <TD class="tb-cell4a">亀之甲羅<BR>大王烏賊<BR>女王蝦</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell4" height="50">亀之甲羅<BR>大王烏賊<BR>女王蝦</TD>
+      <TD class="tb-cell0">体力＋10<BR>
+      防御力＋5</TD>
+      <TD class="tb-cell0">体力＋10</TD>
+      <TD class="tb-cell0">耐力＋50</TD>
+      <TD class="tb-cell5a">究極百吉餅</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell5" height="50">究極百吉餅</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">耐力＋50</TD>
+      <TD class="tb-cell0">耐力＋25<BR>
+      防御力＋5</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell6a">強力猪油<BR>海鮮醤</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell6" height="50">強力猪油<BR>海鮮醤</TD>
+      <TD class="tb-cell0">攻撃力＋3</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">防御力＋5</TD>
+      <TD class="tb-cell0">耐力＋50</TD>
+      <TD class="tb-cell0">攻撃力＋3</TD>
+      <TD class="tb-cell7a">西冷乳蛋</TD>
+      <TD class="tb-celly">　</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell7" height="50">西冷乳蛋</TD>
+      <TD class="tb-cell0">体力＋40</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">攻撃力＋3<BR>
+      防御力＋5</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell8a">怕尼茲酒</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell8" height="50">怕尼茲酒</TD>
+      <TD class="tb-cell0x">体力−40</TD>
+      <TD class="tb-cell0">体力＋40</TD>
+      <TD class="tb-cell0x">耐力−25</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0x">耐力−50</TD>
+      <TD class="tb-cell0">体力＋20</TD>
+      <TD class="tb-cell0">　</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+●国王　　【資格：HR17〜　料金：2000ｚ】
+<TABLE border="1" cellspacing="0" cellpadding="2" id="_HPB_TABLE_1_A_050315092952" class="tb1">
+  <TBODY>
+    <TR>
+      <TD class="tb-cell1" width="90" height="50">食　材</TD>
+      <TD class="tb-cell2a" width="90">龍尾<BR>巨大肉<BR>龍頭<BR>火鶏王</TD>
+      <TD class="tb-celly" width="90">　</TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+      <TD class="tb-cellx" width="90"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell2" height="50">龍尾<BR>巨大肉<BR>龍頭<BR>火鶏王</TD>
+      <TD class="tb-cell0">体力＋30</TD>
+      <TD class="tb-cell3a">松露王<BR>稀有洋葱<BR>霜降番茄</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell3" height="50">松露王<BR>稀有洋葱<BR>霜降番茄</TD>
+      <TD class="tb-cell0">攻撃力＋3</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell4a">女王蝦<BR>朗徳肥肝<BR>粉紅魚子醤</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell4" height="50">女王蝦<BR>朗徳肥肝<BR>粉紅魚子醤</TD>
+      <TD class="tb-cell0">体力＋30<BR>
+      耐力＋25</TD>
+      <TD class="tb-cell0">防御力＋10</TD>
+      <TD class="tb-cell0">体力＋10<BR>
+      耐力＋25</TD>
+      <TD class="tb-cell5a">黄金米<BR>珍珠堅果</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell5" height="50">黄金米<BR>珍珠堅果</TD>
+      <TD class="tb-cell0">攻撃力＋5</TD>
+      <TD class="tb-cell0">耐力＋25</TD>
+      <TD class="tb-cell0">耐力＋50</TD>
+      <TD class="tb-cell0">防御力＋5</TD>
+      <TD class="tb-cell6a">長寿果醤</TD>
+      <TD class="tb-celly">　</TD>
+      <TD class="tb-cellx"></TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell6" height="50">長寿果醤</TD>
+      <TD class="tb-cell0">耐力＋50</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">耐力＋50<BR>
+      防御力＋5</TD>
+      <TD class="tb-cell0">体力＋50<BR>
+      耐力＋25</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell7a">皇家乳酪</TD>
+      <TD class="tb-celly">　</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell7" height="50">皇家乳酪</TD>
+      <TD class="tb-cell0">耐力＋25<BR>
+      防御力＋5</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0x">耐力−50</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell8a">吐息葡萄酒</TD>
+    </TR>
+    <TR>
+      <TD class="tb-cell8" height="50">吐息葡萄酒</TD>
+      <TD class="tb-cell0">体力＋50<BR>
+      攻撃力＋5</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">耐力＋50<BR>
+      防御力＋10</TD>
+      <TD class="tb-cell0x">体力−50</TD>
+      <TD class="tb-cell0">　</TD>
+      <TD class="tb-cell0">体力＋50<BR>
+      耐力＋50</TD>
+      <TD class="tb-cell0">　</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+2005/03/15 http://mmpotato.hp.infoseek.co.jp/codes/MHG/<BR>
+2019/05/30 edit for MH1<BR>
+</BODY>
+</HTML>

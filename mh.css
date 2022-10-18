@@ -1,0 +1,50 @@
+body         { background-image: url('img/fgback.gif'); background-color: #dda86a; 
+               background-repeat: repeat-y; font-size: 10pt; color: #442200 }
+a            { color: #005580; text-decoration: none }
+a:hover     { text-decoration: underline }
+table        { font-size: 10pt ;}
+.title       { font-size: 12pt ; font-weight: bold}
+.address     { margin-left: 8 ; margin-top: 5}
+.contents    { margin-left: 16 ;font-weight: bold; margin-top: 5; line-height: 12pt }
+.subcontents { margin-left: 0 ;font-weight: bold; margin-top: 5; line-height: 11pt }
+ul           { list-style-type: none; margin-left: 16 }
+li           { font-weight: bold; margin-top: 5; margin-bottom: 13 }
+.header      { background-color: #816221; color: #FFFF80 }
+.header a    { color: skyblue; text-decoration: none  }
+.header a:hover    { text-decoration: underline }
+.dataodd     { background-color: #e0e0CC }
+.dataeven    { background-color: #ddc8aa }
+.onhiodd     { background-color: rgb(181, 251, 156) }
+.onhieven    { background-color: rgb(157, 231, 131) }
+.onloodd     { background-color: rgb(237, 241, 147) }
+.onloeven    { background-color: rgb(233, 241, 56) }
+.onhibodd     { background-color: rgb(187, 206, 255) }
+.onhibeven    { background-color: rgb(157, 196, 255) }
+.darkodd     { background-color: #cccccc; color:#777777 }
+.darkeven    { background-color: #aaaaaa; color:#666666 }
+.main        { position: absolute; top:16px; left:216px; width:568px; }
+.main_parent { position: absolute; top:100px; left:8px; width:768px;}
+.main_box    { background-color: #dda86a; border-style: solid; border-width: 1px; padding:10px; border-color: black}
+.main_footer { position: absolute; left:208px; width:568px; }
+.menu        { position: absolute; top:0px; left:6px; width:188px; color: #000000 }
+.menu a      { color: #003580; text-decoration: none }
+.menu a:hover { text-decoration: underline }
+.onhibodd a      { color: #003580; text-decoration: none }
+.onhibodd a:hover { text-decoration: underline }
+.copyright   { color: #5e6656 }
+.tree        { line-height: 10pt }
+  strong.keyword { color: Red; }
+  p.example      { text-indent: 1em; 
+                   color: Navy;
+		   font-weight: bold; }
+  code           { color: Navy; }
+  code.example   { color: Navy;
+		   font-weight: bold; }
+  code.operator  { color: Navy;
+		   font-weight: bold; }
+.req {color:#ff0000 ; font-weight: bold}
+.header .trip { color:#ff8080; font-size: 8pt;}
+.header .sort { color:orange; }
+.menu .trip {color:#800000; font-size: 8pt;}
+.trip {color:#d00000; font-size: 8pt;}
+.id {color:#208020; font-size: 8pt;}
