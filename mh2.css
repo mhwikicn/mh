@@ -1,7 +1,11 @@
 .body         { background-image: url('img/fgback2.gif'); background-color: #dda86a; 
                background-repeat: repeat-y; font-size: 10pt; color: #442200 }
-a            { color: #005580; text-decoration: none }
-a:hover     { text-decoration: underline }
+
+a { text-decoration: none; color:#0000EE; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; color:#EE0000}
+a:focus { text-decoration: underline; color:#EE00EE}
+a:hover, a:active { text-decoration: underline; }
 table        { font-size: 10pt ;}
 .title       { font-size: 12pt ; font-weight: bold}
 .address     { margin-left: 8 ; margin-top: 5}
