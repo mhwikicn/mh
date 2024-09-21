@@ -27,6 +27,7 @@ li           { font-weight: bold; margin-top: 5; margin-bottom: 13 }
 .darkodd     { background-color: #cccccc; color:#777777 }
 .darkeven    { background-color: #aaaaaa; color:#666666 }
 .main_box    { position: absolute; top:98px; left:168px; width:474px; margin:0px; padding:0px; }
+.main_box2    { position: absolute; top:98px; left:168px; width:640px; margin:0px; padding:0px; }
 .main_boxwide    { position: absolute; top:98px; left:168px; width:614px; margin:0px; padding:0px; }
 .menu        { position: absolute; top:80px; left:0px; width:150px; }
 .menu a      { color: #003580; text-decoration: none }
